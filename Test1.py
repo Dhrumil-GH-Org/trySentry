@@ -24,6 +24,10 @@ while True:
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
+        printf(''+no)
+    except Exception as err:
+        sentry_sdk.capture_exception(err)
+    try:
         b=1/0
     except Exception as err:
         sentry_sdk.capture_exception(err)
