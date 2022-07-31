@@ -21,7 +21,7 @@ while True:
         time.sleep(3)
         break
     try:
-        str1+noo
+        str1+noo1
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
@@ -30,7 +30,7 @@ while True:
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        b=1/1
+        b=1/0
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
