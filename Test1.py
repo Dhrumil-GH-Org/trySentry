@@ -15,20 +15,22 @@ no=1
 
 while True:
     no=no+1
+    str1=5
+    noo=2
     u1=int(input("Enter commmand:"))
     if u1==1:
         time.sleep(3)
         break
     try:
-        str+no
+        str1+no2
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        print(''+no11)
+        print(''+str(noo2))
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        b=1/0
+        b=1/1
     except Exception as err:
         sentry_sdk.capture_exception(err)
 
