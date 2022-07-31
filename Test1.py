@@ -21,11 +21,11 @@ while True:
         time.sleep(3)
         break
     try:
-        str2+noo
+        str1+noo
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        print(''+str(noo1))
+        print(''+str(u1))
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
