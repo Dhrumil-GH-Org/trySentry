@@ -15,7 +15,7 @@ noo=2
 no=0
 while True:
     no=no+1
-    
+    print('Test1 ')
     u1=int(input("Enter commmand:"))
     if u1==1:
         time.sleep(3)
@@ -33,7 +33,7 @@ while True:
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        b=1/0
+        b=1/1
     except Exception as err:
         sentry_sdk.capture_exception(err)
 
