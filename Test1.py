@@ -2,7 +2,7 @@ import sentry_sdk
 import time
 
 sentry_sdk.init(
-    dsn="",
+    dsn="https://7752d499fda3425d873764302d362847@o1338503.ingest.sentry.io/6609457",
 
     # Set traces_sample_rate to 1.0 to capture 100%
     # of transactions for performance monitoring.
@@ -24,7 +24,7 @@ while True:
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        printf(''+no11)
+        print(''+no11)
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
