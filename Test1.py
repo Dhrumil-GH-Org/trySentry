@@ -32,5 +32,9 @@ while True:
         b=1/1
     except Exception as err:
         sentry_sdk.capture_exception(err)
+    try:
+        b=1/0
+    except Exception as err:
+        sentry_sdk.capture_exception(err)
 
     
