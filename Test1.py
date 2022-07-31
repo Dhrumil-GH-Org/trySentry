@@ -26,6 +26,7 @@ while True:
         sentry_sdk.capture_exception(err)
     try:
         print(''+str(u1))
+        print(u1*3)
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
