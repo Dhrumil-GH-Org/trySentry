@@ -10,13 +10,12 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 
-str='Test1'
-no=1
-
+str1=5
+noo=2
+no=0
 while True:
     no=no+1
-    str1=5
-    noo=2
+    
     u1=int(input("Enter commmand:"))
     if u1==1:
         time.sleep(3)
