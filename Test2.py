@@ -21,7 +21,8 @@ while True:
         time.sleep(3)
         break
     try:
-        sen1+sen23
+        sen1+sen2
+        sen4/0
     except Exception as err:
         sentry_sdk.capture_exception(err)
 
