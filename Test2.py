@@ -25,7 +25,7 @@ while True:
     except Exception as err:
         sentry_sdk.capture_exception(err)
     try:
-        sen1/0
+        sen1=sen1+3
     except Exception as err:
         sentry_sdk.capture_exception(err)
 
