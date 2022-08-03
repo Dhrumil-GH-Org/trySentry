@@ -22,7 +22,10 @@ while True:
         break
     try:
         sen1+sen2
-        sen4/0
+    except Exception as err:
+        sentry_sdk.capture_exception(err)
+    try:
+        sen1/0
     except Exception as err:
         sentry_sdk.capture_exception(err)
 
