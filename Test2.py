@@ -2,7 +2,7 @@ import sentry_sdk
 import time
 
 sentry_sdk.init(
-    dsn="https://7752d499fda3425d873764302d362847@o1338503.ingest.sentry.io/6609457",
+    dsn="",
 
     # Set traces_sample_rate to 1.0 to capture 100%
     # of transactions for performance monitoring.
