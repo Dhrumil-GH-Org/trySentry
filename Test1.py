@@ -10,7 +10,7 @@ sentry_sdk.init(
     traces_sample_rate=1.0,
 )
 
-str1=5
+str1=6
 noo=2
 no=0
 while True:
